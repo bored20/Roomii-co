@@ -38,19 +38,43 @@ a {
   align-items: center;
   background: #B4A7AF;
   text-align: center;
-  padding: 40px 40px 40px 200px;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .hero-slide h1 {
   font-size: 3rem;
-  font-weight: 600;
-  color: #1F1F1F;
+  font-weight: bold;
+  color: #000000;
 }
 
 .hero-slide p {
   font-size: 1.2rem;
-  color: #1F1F1F;
+  color: #000000;
   max-width: 600px;
+  font-weight: bold;
+}
+
+.btn-hero {
+  background-color: #333333;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
+
+.btn-cta {
+  background-color: #333333;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 5px;
 }
 
 .section {
@@ -66,7 +90,7 @@ a {
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .hero-slide {
-    padding: 40px 20px 40px 100px;
+    padding: 40px 20px;
   }
   .hero-slide h1 {
     font-size: 2rem;
