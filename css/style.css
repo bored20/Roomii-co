@@ -46,22 +46,26 @@ a {
   margin: 0 auto;
 }
 
+.hero-section {
+  margin-bottom: 120px;
+}
+
 .hero-slide h1 {
   font-size: 3rem;
   font-weight: bold;
-  color: #000000;
+  color: #ffffff;
   padding: 15px 25px;
-  background-color: #B4A7AF;
+  background-color: #9f82b4;
   border-radius: 8px;
   display: inline-block;
 }
 
 .swiper-slide:nth-child(2) .hero-title {
-  background-color: #8C6D75;
+  background-color: #9f82b4;
 }
 
 .swiper-slide:nth-child(3) .hero-title {
-  background-color: #B4A7AF;
+  background-color: #9f82b4;
 }
 
 .hero-slide p {
@@ -91,7 +95,7 @@ a {
 
 .cta-section {
   padding: 80px 0;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .footer {
@@ -153,6 +157,10 @@ a {
 
 .section {
   padding: 80px 0;
+}
+
+.section-padding {
+  margin-bottom: 120px;
 }
 
 .section-title {
